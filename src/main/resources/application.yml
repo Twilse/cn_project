@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo1
+
+  datasource:
+    url: jdbc:mysql://rm-cn-m1e40udze0001m.sqlserver.rds.aliyuncs.com:1433/cn_project?serverTimeZone=UTC
+    username: cn_project
+    password: cn_project_2024
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.example.demo.domain
